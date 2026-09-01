@@ -51,7 +51,7 @@ A system prompt restricting answers to retrieved context only.
 Three of four fixed. Australia still fails because "the capital of Australia
 is Canberra" is common enough in training data that a 1.5B model won't
 suppress it, even when instructed. That's a model capacity limit, not a
-config problem — a 7B model would likely refuse correctly.
+config problem - a 7B model would likely refuse correctly.
 
 The meaningless-input row is the clearest evidence the instruction works.
 Same class of garbage input, opposite behaviour.
