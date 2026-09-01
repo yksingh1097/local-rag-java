@@ -13,8 +13,8 @@ Drop any PDF into `src/main/resources/docs/` and update `pdfPath` in the
 source. The book I used isn't included for copyright reasons.
 
 Two runnable classes:
-- `RagApp` — no system prompt
-- `RagAppContext` — same pipeline, system prompt constraining answers to
+- `RagApp` - no system prompt
+- `RagAppContext` - same pipeline, system prompt constraining answers to
   retrieved context
 
 ## What broke
@@ -28,7 +28,7 @@ from 3 to 2 to shrink the prompt. See `results/01_timeout_failure.txt`.
 about intermittent fasting, which isn't in the book, it invented a book
 title ("The Easy Route") and produced confident health claims that appear
 nowhere in the source. It did retrieve real nutrition chunks, then blended
-them with its own training data. That mix is the dangerous part — the output
+them with its own training data. That mix is the dangerous part - the output
 looks sourced, and you can't tell which half is real without checking.
 
 A typo made this clearer. I fat-fingered `/exiit`, which is meaningless, and
