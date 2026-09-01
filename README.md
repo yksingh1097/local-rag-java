@@ -1,8 +1,6 @@
 # Local RAG in Java
 
-RAG over a 220-page PDF running entirely on CPU inside a VM. Built this to
-find out where retrieval-augmented generation breaks on constrained hardware,
-not to demo that it works.
+RAG over a 220-page PDF (I tested against Good Vibes, Good Life by Vex King. I have not pushed that since that is a copyrighted content. When testing offline, it has to be placed in /src/main/resources/docs/ folder) running entirely on CPU inside a VM. Built this to find out where retrieval-augmented generation breaks on constrained hardware, not to demo that it works.
 
 **Stack:** LangChain4j 1.19.0, Ollama (qwen2.5:1.5b), all-MiniLM-L6-v2
 quantized embeddings running in-process, in-memory vector store.
