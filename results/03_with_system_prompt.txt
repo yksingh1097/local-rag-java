@@ -1,0 +1,56 @@
+
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ mvn compile exec:java -Dexec.mainClass=com.rag.RagAppContext
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.rag:rag-demo >--------------------------
+[INFO] Building rag-demo 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ rag-demo ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ rag-demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug target 17] to target/classes
+[INFO] 
+[INFO] --- exec:3.6.3:java (default-cli) @ rag-demo ---
+Loading PDF...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Loaded 253030 characters
+Loading embedding model...
+Embedding chunks (this takes a while on CPU)...
+Ingestion took 41s
+
+Question (or 'exit'): What is the capital of Australia?
+
+The capital of Australia is Canberra.
+
+Question (or 'exit'): What does the book say about intermittent fasting?
+
+The book emphasizes the importance of consistent behavior and long-term gains over short-term pleasures. It suggests that investing time wisely, such as by focusing on nutrition and hydration, can lead to a greater life. The author encourages readers to notice warning signs of unhealthy habits and to align their actions with their higher purpose, rather than being swayed by the quick-fix society.
+
+Question (or 'exit'): What are the two essential elements of self-love according to the book?
+
+The two essential elements of self-love according to the book are:
+
+1. Unconditional love towards yourself.
+2. Growth through taking action.
+
+Question (or 'exit'): Should I quit a job that drains me?
+
+Yes, you should consider quitting a job that drains you. While it can be daunting and scary to leave a harmful workplace, recognizing that you deserve better than the situation you're trapped in is a crucial first step. It's important to be daring and move on, even if it takes time. The longer you stay in harmful conditions, the more you sabotage your own life.
+
+Question (or 'exit'): /bye
+
+"Not found in the provided documents."
+
+Question (or 'exit'): exit
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  07:23 min
+[INFO] Finished at: 2026-09-01T16:25:49+05:30
+[INFO] ------------------------------------------------------------------------

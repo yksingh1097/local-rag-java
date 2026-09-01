@@ -1,0 +1,138 @@
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ mvn compile exec:java -Dexec.mainClass=com.rag.RagApp
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.rag:rag-demo >--------------------------
+[INFO] Building rag-demo 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ rag-demo ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ rag-demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 17] to target/classes
+[INFO] 
+[INFO] --- exec:3.6.3:java (default-cli) @ rag-demo ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.24/maven-resolver-util-1.9.24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.24/maven-resolver-util-1.9.24.pom (2.2 kB at 1.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.9.24/maven-resolver-1.9.24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver/1.9.24/maven-resolver-1.9.24.pom (25 kB at 121 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.24/maven-resolver-api-1.9.24.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.24/maven-resolver-api-1.9.24.pom (2.2 kB at 4.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.pom (11 kB at 65 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/93/commons-parent-93.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-parent/93/commons-parent-93.pom (79 kB at 379 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.1/junit-bom-5.14.1.pom
+Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.14.1/junit-bom-5.14.1.pom (5.7 kB at 39 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.24/maven-resolver-util-1.9.24.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.24/maven-resolver-api-1.9.24.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-util/1.9.24/maven-resolver-util-1.9.24.jar (196 kB at 257 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-exec/1.6.0/commons-exec-1.6.0.jar (69 kB at 74 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/4.0.2/plexus-utils-4.0.2.jar (193 kB at 196 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/resolver/maven-resolver-api/1.9.24/maven-resolver-api-1.9.24.jar (157 kB at 159 kB/s)
+Loading PDF...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Loaded 253030 characters
+Loading embedding model...
+Embedding chunks (this takes a while on CPU)...
+Ingestion took 41s
+
+Question (or 'exit'): What are the two essential elements of self-love according to the book?
+
+According to the book, the two essential elements of self-love are:
+
+1. **Unconditional Love towards Yourself**: This involves appreciating and valuing yourself regardless of any external changes or transformations you might aspire to. It's about focusing on your mindset and self-worth, rather than external factors like weight loss, cosmetic surgery, or changes in appearance.
+
+2. **Growth and Action**: This element encourages taking action towards personal development and growth. It's about applying self-love principles to various aspects of your life, including diet, spiritual practices, and interactions with others. It emphasizes the importance of making positive changes that add value to your life.
+
+Self-love is about having your own best interests at heart, and it can manifest in various ways, such as through your diet, spiritual rituals, or interactions with others. It's about acceptance and empowerment, allowing you to find balance between your mindset and your actions.
+
+Question (or 'exit'): Should I quit a job that drains me?
+[WARNING] 
+dev.langchain4j.exception.TimeoutException: request timed out
+    at dev.langchain4j.http.client.jdk.JdkHttpClient.execute (JdkHttpClient.java:58)
+    at dev.langchain4j.model.ollama.OllamaClient.chat (OllamaClient.java:118)
+    at dev.langchain4j.model.ollama.OllamaChatModel.lambda$doChat$0 (OllamaChatModel.java:41)
+    at dev.langchain4j.internal.ExceptionMapper.withExceptionMapper (ExceptionMapper.java:29)
+    at dev.langchain4j.internal.RetryUtils.lambda$withRetryMappingExceptions$1 (RetryUtils.java:330)
+    at dev.langchain4j.internal.RetryUtils$RetryPolicy.withRetry (RetryUtils.java:208)
+    at dev.langchain4j.internal.RetryUtils.withRetry (RetryUtils.java:267)
+    at dev.langchain4j.internal.RetryUtils.withRetryMappingExceptions (RetryUtils.java:330)
+    at dev.langchain4j.internal.RetryUtils.withRetryMappingExceptions (RetryUtils.java:313)
+    at dev.langchain4j.model.ollama.OllamaChatModel.doChat (OllamaChatModel.java:41)
+    at dev.langchain4j.model.chat.ChatModel.chat (ChatModel.java:61)
+    at dev.langchain4j.model.chat.ChatModel.chat (ChatModel.java:36)
+    at dev.langchain4j.guardrail.SynchronousChatExecutor.execute (SynchronousChatExecutor.java:32)
+    at dev.langchain4j.guardrail.AbstractChatExecutor.executeInternal (AbstractChatExecutor.java:66)
+    at dev.langchain4j.guardrail.AbstractChatExecutor.execute (AbstractChatExecutor.java:52)
+    at dev.langchain4j.service.DefaultAiServices$1.invoke (DefaultAiServices.java:333)
+    at dev.langchain4j.service.DefaultAiServices$1.invoke (DefaultAiServices.java:162)
+    at com.rag.$Proxy26.chat (Unknown Source)
+    at com.rag.RagApp.main (RagApp.java:81)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod (AbstractExecJavaBase.java:402)
+    at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod (ExecJavaMojo.java:142)
+    at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader (AbstractExecJavaBase.java:377)
+    at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0 (AbstractExecJavaBase.java:287)
+    at java.lang.Thread.run (Thread.java:840)
+Caused by: java.net.http.HttpTimeoutException: request timed out
+    at jdk.internal.net.http.HttpClientImpl.send (HttpClientImpl.java:898)
+    at jdk.internal.net.http.HttpClientFacade.send (HttpClientFacade.java:133)
+    at dev.langchain4j.http.client.jdk.JdkHttpClient.execute (JdkHttpClient.java:49)
+    at dev.langchain4j.model.ollama.OllamaClient.chat (OllamaClient.java:118)
+    at dev.langchain4j.model.ollama.OllamaChatModel.lambda$doChat$0 (OllamaChatModel.java:41)
+    at dev.langchain4j.internal.ExceptionMapper.withExceptionMapper (ExceptionMapper.java:29)
+    at dev.langchain4j.internal.RetryUtils.lambda$withRetryMappingExceptions$1 (RetryUtils.java:330)
+    at dev.langchain4j.internal.RetryUtils$RetryPolicy.withRetry (RetryUtils.java:208)
+    at dev.langchain4j.internal.RetryUtils.withRetry (RetryUtils.java:267)
+    at dev.langchain4j.internal.RetryUtils.withRetryMappingExceptions (RetryUtils.java:330)
+    at dev.langchain4j.internal.RetryUtils.withRetryMappingExceptions (RetryUtils.java:313)
+    at dev.langchain4j.model.ollama.OllamaChatModel.doChat (OllamaChatModel.java:41)
+    at dev.langchain4j.model.chat.ChatModel.chat (ChatModel.java:61)
+    at dev.langchain4j.model.chat.ChatModel.chat (ChatModel.java:36)
+    at dev.langchain4j.guardrail.SynchronousChatExecutor.execute (SynchronousChatExecutor.java:32)
+    at dev.langchain4j.guardrail.AbstractChatExecutor.executeInternal (AbstractChatExecutor.java:66)
+    at dev.langchain4j.guardrail.AbstractChatExecutor.execute (AbstractChatExecutor.java:52)
+    at dev.langchain4j.service.DefaultAiServices$1.invoke (DefaultAiServices.java:333)
+    at dev.langchain4j.service.DefaultAiServices$1.invoke (DefaultAiServices.java:162)
+    at com.rag.$Proxy26.chat (Unknown Source)
+    at com.rag.RagApp.main (RagApp.java:81)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0 (Native Method)
+    at jdk.internal.reflect.NativeMethodAccessorImpl.invoke (NativeMethodAccessorImpl.java:77)
+    at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke (DelegatingMethodAccessorImpl.java:43)
+    at java.lang.reflect.Method.invoke (Method.java:569)
+    at org.codehaus.mojo.exec.AbstractExecJavaBase.executeMainMethod (AbstractExecJavaBase.java:402)
+    at org.codehaus.mojo.exec.ExecJavaMojo.executeMainMethod (ExecJavaMojo.java:142)
+    at org.codehaus.mojo.exec.AbstractExecJavaBase.doExecClassLoader (AbstractExecJavaBase.java:377)
+    at org.codehaus.mojo.exec.AbstractExecJavaBase.lambda$execute$0 (AbstractExecJavaBase.java:287)
+    at java.lang.Thread.run (Thread.java:840)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14:21 min
+[INFO] Finished at: 2026-09-01T16:00:16+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:3.6.3:java (default-cli) on project rag-demo: An exception occurred while executing the Java class. request timed out -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 

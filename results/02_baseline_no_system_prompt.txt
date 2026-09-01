@@ -1,0 +1,180 @@
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ mvn compile exec:java -Dexec.mainClass=com.rag.RagApp
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.rag:rag-demo >--------------------------
+[INFO] Building rag-demo 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ rag-demo ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ rag-demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 1 source file with javac [debug target 17] to target/classes
+[INFO] 
+[INFO] --- exec:3.6.3:java (default-cli) @ rag-demo ---
+Loading PDF...
+SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Loaded 253030 characters
+Loading embedding model...
+Embedding chunks (this takes a while on CPU)...
+Ingestion took 41s
+
+Question (or 'exit'): What is the capital of Australia?
+
+The capital of Australia is Canberra.
+
+Question (or 'exit'): What does the book say about intermittent fasting?
+
+The book "The Easy Route" by the author suggests that intermittent fasting can be a beneficial practice for achieving certain goals. It emphasizes the importance of consistency and long-term results over quick fixes. The author encourages readers to make small, consistent changes rather than trying to achieve overnight results. This approach is likened to the idea that "the easy route is often the best route."
+
+The book also touches on the concept of faith versus fear, suggesting that embracing faith and trust in the process can lead to more sustainable and meaningful results. It encourages readers to flow with the universe and make choices that align with their higher purpose, rather than being swayed by short-term pleasures.
+
+Regarding intermittent fasting, the book suggests that it can be a useful tool for managing weight, improving energy levels, and potentially reducing the risk of chronic diseases. It emphasizes the importance of listening to your body and finding what works best for you, rather than following strict rules or quick fixes.
+
+The author also discusses the relationship between food and our overall well-being, suggesting that what we eat and drink can significantly impact our energy levels, mood, and overall health. It encourages readers to pay attention to the warning signs of poor nutrition and to make informed choices that support their health and happiness.
+
+Overall, the book promotes a balanced approach to health and wellness, emphasizing the importance of consistency, faith, and listening to one's body. It suggests that by making small, consistent changes, readers can achieve their goals in a way that is both effective and sustainable.
+
+Question (or 'exit'): What are the two essential elements of self-love according to the book?
+
+The two essential elements of self-love, as described in the book, are:
+
+1. **Unconditional Love towards Yourself**: This element encourages you to love yourself without any conditions or expectations. It focuses on your mindset and emphasizes that true self-love is not about achieving external transformations like losing weight, gaining weight, or undergoing cosmetic surgery. Instead, it's about appreciating and accepting where you are and who you are, regardless of any changes you might aspire to.
+
+2. **Growth and Action**: This element encourages you to take action towards personal development and growth. It focuses on applying self-love principles to your life, including your diet, spiritual practices, and interactions with others. The key is to find value in these actions that add to your life, whether it's through better diet choices, spiritual practices, or improved relationships.
+
+Both elements are crucial for achieving true self-love. Self-love is about having your own best interests at heart, and it can manifest in various aspects of your life, from your diet to your spiritual practices, and even in your interactions with others. Acceptance is also a significant aspect of self-love, as it involves being content with who you are, as you are, without any judgment or criticism. This understanding of self-love allows you to find balance between your mindset and your actions, leading to empowerment and liberation.
+
+Question (or 'exit'): Should I quit a job that drains me?
+
+It's understandable to feel overwhelmed and unsure about whether to quit a job that drains you. However, it's important to consider the long-term benefits of making a change. Here are some steps you can take to decide if it's time to leave:
+
+1. **Assess Your Feelings**: Reflect on why the job is draining you. Is it the workload, the lack of growth opportunities, the toxic work environment, or something else? Understanding the root cause can help you decide if the job is truly draining you or if there's another issue at play.
+
+2. **Evaluate Your Financial Situation**: If you're in a situation where leaving the job would mean financial instability, consider the potential consequences of quitting. It's important to weigh the pros and cons of each decision.
+
+3. **Seek Support**: Talk to friends, family, or a career counselor about your situation. Sometimes, talking things out can help you gain clarity and perspective.
+
+4. **Plan Your Next Steps**: If you decide to quit, start planning your next steps. This might include updating your resume, networking, or even taking a break to gather your thoughts before making a final decision.
+
+5. **Take a Break**: Sometimes, taking a break can help you gain clarity and perspective. Consider taking a few days or a few weeks off to reflect on your situation.
+
+6. **Consider the Unknown**: While you may be scared of the unknown, it's important to remember that you don't know what the future holds. Sometimes, taking a risk can lead to unexpected opportunities.
+
+7. **Be Daring**: If you've decided it's time to quit, be daring enough to move on. Don't let fear hold you back. Remember, you deserve better than the toxic situation you're trapped in.
+
+8. **Take Action**: Once you've made your decision, take action. This might involve updating your resume, networking, or even taking a break to gather your thoughts.
+
+Remember, it's important to make decisions that align with your values and goals. If quitting the job would help you create a better life for yourself and others, then it's worth considering.
+
+Question (or 'exit'): /exiit
+
+It seems like you're discussing a situation involving Sarah and her feelings, possibly related to relationships or personal growth. The passage mentions a spiritual medium named Darryl Anka who advises following one's "excitement" as the path to realizing what one wants. The text suggests that Sarah is overthinking her situation and that following her excitement is the best course of action.
+
+The passage also mentions that Darryl Anka advises against justifying actions based on excitement, but rather to simply do them. It suggests that Sarah should take action on whatever it is that truly excites her, without worrying about whether it's the right thing to do or whether she can justify it.
+
+The text concludes by suggesting that Sarah should make sure she doesn't choose something that she labels as exciting because she can't think of anything else. This implies that Sarah should follow her excitement without hesitation, as it is the most appropriate and fulfilling choice for her.
+
+The passage seems to be providing guidance on how to approach situations where one feels uncertain or unsure about what to do. It suggests that following one's excitement is the best course of action, and that it's important to simply do what excites you without worrying about justification or external validation.
+
+Question (or 'exit'): /exit
+^Cxubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+
+
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ 
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ mvn compile exec:java -Dexec.mainClass=com.rag.RagAppContext
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.rag:rag-demo >--------------------------
+[INFO] Building rag-demo 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ rag-demo ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ rag-demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug target 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/xubuntu-admin/personal-projects/rag_demo/src/main/java/com/rag/RagAppContext.java:[23,8] class RagApp is public, should be declared in a file named RagApp.java
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.380 s
+[INFO] Finished at: 2026-09-01T16:17:18+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project rag-demo: Compilation failure
+[ERROR] /home/xubuntu-admin/personal-projects/rag_demo/src/main/java/com/rag/RagAppContext.java:[23,8] class RagApp is public, should be declared in a file named RagApp.java
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+xubuntu-admin@xubuntu-admin-VirtualBox:~/personal-projects/rag_demo$ mvn compile exec:java -Dexec.mainClass=com.rag.RagApp
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------------< com.rag:rag-demo >--------------------------
+[INFO] Building rag-demo 1.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ rag-demo ---
+[INFO] Copying 1 resource from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ rag-demo ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 2 source files with javac [debug target 17] to target/classes
+[INFO] -------------------------------------------------------------
+[ERROR] COMPILATION ERROR : 
+[INFO] -------------------------------------------------------------
+[ERROR] /home/xubuntu-admin/personal-projects/rag_demo/src/main/java/com/rag/RagApp.java:[23,8] duplicate class: com.rag.RagApp
+[INFO] 1 error
+[INFO] -------------------------------------------------------------
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.856 s
+[INFO] Finished at: 2026-09-01T16:17:52+05:30
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project rag-demo: Compilation failure
+[ERROR] /home/xubuntu-admin/personal-projects/rag_demo/src/main/java/com/rag/RagApp.java:[23,8] duplicate class: com.rag.RagApp
+[ERROR] 
+[ERROR] -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
